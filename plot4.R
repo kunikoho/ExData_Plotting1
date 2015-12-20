@@ -14,7 +14,7 @@ hpc_dt <- paste(as.Date(hpc$Date, format="%d/%m/%Y"), hpc$Time)
 hpc$dt <- as.POSIXct(hpc_dt)
 
 # starting the graphics device png of 480px x 480px size
-png("plot4.png", width=480, height=480, bg="transparent", units="px")
+png("plot4.png", width=480, height=480, units="px")
 
 par(mfrow=c(2,2))
 

@@ -15,7 +15,7 @@ hpc$dt <- as.POSIXct(hpc_dt)
 
 
 # starting the graphics device png of 480px x 480px size
-png("plot2.png", width=480, height=480, bg="transparent", units="px")
+png("plot2.png", width=480, height=480, units="px")
 
 # create the plot with labels
 plot(hpc$Global_active_power ~ hpc$dt, 

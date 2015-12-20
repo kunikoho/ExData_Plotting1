@@ -10,7 +10,7 @@ hpc <- read.table(text = grep("^[1,2]/2/2007", readLines(h), value = TRUE),
                   sep = ";", na.strings = "?", header = TRUE)
 
 # starting the graphics device png of 480px x 480px size
-png("plot1.png", width=480, height=480, bg="transparent", units="px")
+png("plot1.png", width=480, height=480, units="px")
 
 # create a histogram
 hist(hpc$Global_active_power, 
